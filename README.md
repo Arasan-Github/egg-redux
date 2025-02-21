@@ -23,3 +23,4 @@ The final state of the application can also be found in the `final` branch.
 - [React Router](https://reactrouter.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS Modules](https://github.com/css-modules/css-modules)
+# egg-redux
