@@ -5,6 +5,9 @@ import productsReducer from "../features/products/productsSlice"
 export const store = configureStore({
     reducer: {
         cart: cartReducer,
-        product: productsReducer
+        products: productsReducer
     }
 })
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
